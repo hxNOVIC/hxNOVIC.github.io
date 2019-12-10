@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/adba7aa6cd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -17,19 +18,54 @@
     </div>
   </div>
   <div class="container">
-      <div class="d-flex justify-content-between">
-        <p>test</p>
-        <p>test 2</p>
-        <p>test 3</p>
+      <div class="d-flex justify-content-between tabs">
+        <p id="aboutme">About me</p>
+        <p id="myprojects">Projects</p>
+        <p id="contact">Contact</p>
       </div>
-    <div class="projects d-flex justify-content-center">
-      <div>
-        <h3><strong>lewagon-simulator</strong>.wtf - 2019</h3>
-        <a href="http://lewagon-simulator.wtf" target="_blank">
-          <img src="lewagonsim.png" alt="lewagon simulator">
-        </a>
+      <div class="show" id="projects-div" style="min-height: 100vh;">
+        <div class="projects d-flex">
+          <div class="each-project">
+            <h3><strong>lewagon-simulator</strong>.wtf - 2019</h3>
+            <a href="http://lewagon-simulator.wtf" target="_blank">
+              <img src="lewagonsim.png" alt="lewagon simulator">
+            </a>
+            <p class="text-center">Le wagon simulator est un projet realisé en 2 semaines durant ma formation au wagon. </p>
+          </div>
+          <div class="each-project">
+            <h3><strong>MILFR</strong>.herokuapp.com - 2019</h3>
+            <a href="https://milfr.herokuapp.com/" target="_blank">
+              <img src="MILFR.png" alt="lewagon simulator">
+            </a>
+            <p class="text-center">MILFR est un projet realisé en 4 jours durant ma formation au wagon. </p>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="no-show" id="aboutme-div" style="min-height: 100vh;">
+        <div class="about justify-content-center">
+            <h6><strong>My story</strong></h6>
+          <div>
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nobis maiores dolorem consectetur, necessitatibus molestias ut, dolor ad nisi neque distinctio. Recusandae libero magni minima expedita, repudiandae facilis et soluta eos, tenetur debitis hic necessitatibus harum quidem voluptatibus labore at.</p>
+            <h6><strong>Skills</strong></h6>
+            <ul>
+              <li><img src="html5.png" alt="javascript" style="height: 32px;width: 32px;"></li>
+              <li><img src="css-3.png" alt="javascript "style="height: 32px;width: 32px;"></li>
+              <li><img src="javascript.png" alt="javascript" style="height: 32px;width: 32px;"></li>
+              <li><img src="ruby.png" alt="javascript" style="height: 32px;width: 32px;"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="no-show" id="contact-div" style="min-height: 100vh;">
+        <div class="projects d-flex justify-content-center">
+          <div>
+            <h3><strong>TEST</strong>.wtf - 2019</h3>
+            <a href="http://lewagon-simulator.wtf" target="_blank">
+              <img src="lewagonsim.png" alt="lewagon simulator">
+            </a>
+          </div>
+        </div>
+      </div>
   </div>
   <div class="footer">
     <div class="footer-links">
@@ -37,5 +73,6 @@
       <a href="#"><i class="fab fa-linkedin" style="color: #FFC145;"></i></a>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

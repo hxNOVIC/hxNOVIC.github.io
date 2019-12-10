@@ -1,3 +1,9 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
 .banner {
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("_JBU4413-1 Nicolas Pierson.jpg");
   height: 80vh;
@@ -18,6 +24,19 @@
 .projects {
   padding: 100px;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  padding: 100px;
+  width: 100%;
+}
+
+.about li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
 }
 
 .projects h3 {
@@ -28,6 +47,14 @@
 .projects img {
   height: 330px;
   width: 640px;
+}
+
+.no-show {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 .footer {
@@ -53,4 +80,37 @@
 .footer-links a:hover {
   opacity: 1;
 }
+
+#aboutme-div {
+  height: 70vh;
+}
+
+#aboutme:hover {
+  border-bottom: 1px #FFC145 solid;
+  cursor: grab;
+}
+
+#myprojects:hover {
+  border-bottom: 1px #FFC145 solid;
+  cursor: grab;
+}
+
+#contact:hover {
+  border-bottom: 1px #FFC145 solid;
+  cursor: grab;
+}
+
+.bottom-border {
+  border-bottom: 1px black solid;
+}
+
+.tabs {
+  margin-top: 15px;
+}
+
+.each-project {
+  width: 640px;
+  margin-bottom: 25px;
+}
+
 
