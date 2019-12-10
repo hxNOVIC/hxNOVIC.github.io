@@ -31,6 +31,16 @@ body {
 .about {
   padding: 100px;
   width: 100%;
+  margin-top: 25px;
+}
+.about-text {
+  width: 90%;
+}
+
+.about p {
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  line-height: 30px;
 }
 
 .about li {
@@ -47,6 +57,10 @@ body {
 .projects img {
   height: 330px;
   width: 640px;
+}
+
+.skills {
+  margin-top: 60px;
 }
 
 .no-show {
