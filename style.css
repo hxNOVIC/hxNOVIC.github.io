@@ -1,0 +1,56 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("_JBU4413-1 Nicolas Pierson.jpg");
+  height: 80vh;
+  padding: 300px;
+  background-size: cover;
+}
+
+.banner h1 {
+  color: #FBFEF9;
+
+}
+
+.banner h5 {
+  color: #FBFEF9;
+  opacity: 0.6;
+}
+
+.projects {
+  padding: 100px;
+  width: 100%;
+}
+
+.projects h3 {
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+.projects img {
+  height: 330px;
+  width: 640px;
+}
+
+.footer {
+  background: #403F4C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: #FFC145;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
