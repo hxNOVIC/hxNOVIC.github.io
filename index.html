@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/adba7aa6cd.js" crossorigin="anonymous"></script>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/adba7aa6cd.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -18,10 +18,9 @@
     </div>
   </div>
   <div class="container">
-      <div class="d-flex justify-content-between tabs">
+      <div class="d-flex justify-content-around tabs">
         <p id="aboutme">About me</p>
         <p class="bottom-border"id="myprojects">Projects</p>
-        <p id="contact">Contact</p>
       </div>
       <div class="show" id="projects-div" style="min-height: 100vh;">
         <div class="projects d-flex">
@@ -41,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="no-show" id="aboutme-div" style="min-height: 80vh;">
+      <div class="no-show" id="aboutme-div">
         <div class="about justify-content-center">
           <div>
             <i class="fas fa-quote-left" style="font-size:24px;"></i>
@@ -50,8 +49,14 @@
                 <p class="text-center">Après un parcours complétement détaché du milieu de la tech, j'ai décidé de faire de l'un de mes principaux centres d'interet mon métier. J'ai donc suivi la formation le wagon Paris(#321) qui m'a permie d'obtenir une formation rapide et efficace, ainsi qu'une envie d'apprendre plus..</p>
               </div>
             </div>
-              <p class="text-right" style="font-size:24px;"><i class="fas fa-quote-right"></i></p>
-            <h6><strong></strong></h6>
+            <p class="text-right" style="font-size:24px;"><i class="fas fa-quote-right"></i></p>
+            <div class="contact">
+              <h6 class="text-center"><strong>Contact</strong></h6>
+              <div class="contact-list d-flex justify-content-center">
+                <i id="at" class="fas fa-at"></i>
+                <i class="fab fa-linkedin"></i>
+              </div>
+            </div>
             <h6 class="text-center my-5"><strong>Skills</strong></h6>
             <div class="skills d-flex justify-content-center">
               <ul>
@@ -63,17 +68,6 @@
               </ul>
             </div>
             <p class="text-center" style="font-size: 12px;"><a style="text-decoration: none; color: black;"href="https://github.com/hxNOVIC/"><i class="fab fa-github" style="margin-right: 7px; text-decoration: none;"></i>Check my github!</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="no-show" id="contact-div" style="min-height: 80vh;">
-        <div class="contact d-flex justify-content-center">
-          <div>
-            <ul>
-              <li><p><i class="fas fa-at"></i>monadresse@monadresse.fr</p></li>
-              <li><p><i class="fab fa-linkedin"></i>mon linkedin</p></li>
-              <li><p></p></li>
-            </ul>
           </div>
         </div>
       </div>
